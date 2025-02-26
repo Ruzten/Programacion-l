@@ -13,7 +13,8 @@ public class Main {
             String opcion = JOptionPane.showInputDialog("*** OPCIONES ***\n" +
                     "1). Añadir estudiante\n" +
                     "2). Modificar estudiante\n" +
-                    "3). Borrar estudiante");
+                    "3). Borrar estudiante\n" +
+                    "4). Mostrar estudiante");
 
             if (opcion.equals("1")) {
 
@@ -52,15 +53,28 @@ public class Main {
             else if (opcion.equals("3")) {
                 String idEliminar = JOptionPane.showInputDialog("Ingrese el ID del estudiante a borrar: ");
                 for (estudiante est : listaestudiantes) {
-                    if (est.getId().equals(idEliminar));
+                    if (est.getId().equals(idEliminar)) ;
                     listaestudiantes.remove(est);
                     JOptionPane.showMessageDialog(null, est);
-                    JOptionPane.showMessageDialog(null,"Estudiante borrado correctamente");
+                    JOptionPane.showMessageDialog(null, "Estudiante borrado correctamente");
 
                     break;
                 }
+            }
+            else if (opcion.equals("4")) {
+                String idBuscar = JOptionPane.showInputDialog("Ingrese el ID del estudiante: ");
+                for (estudiante est : listaestudiantes) {
+                    if (est.getId().equals(idBuscar)) {
+                        JOptionPane.showMessageDialog(null, est);
+                        break;
+                    }
+                }
+            }
+            else {
+                JOptionPane.showMessageDialog(null, "Opcion no valida");
 
             }
         }
     }
 }
+
