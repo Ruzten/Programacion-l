@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuarderiaRq1/GuarderiaRq1.iml" filepath="$PROJECT_DIR$/GuarderiaRq1/GuarderiaRq1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuarderiaRq2/GuarderiaRq2.iml" filepath="$PROJECT_DIR$/GuarderiaRq2/GuarderiaRq2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjectGuarderia.iml" filepath="$PROJECT_DIR$/.idea/ProjectGuarderia.iml" />
+    </modules>
+  </component>
+</project>

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 // mostrar primero el menu, ingresar el entero, si es igual a 1 entonces motrar tal cosa, al final dar la opcion de volver al menu y finalizar
 
 
-public class mainAnterior {
+public class Main {
     public static void main(String[] args) {
 
         ArrayList<estudiante> listaestudiantes = new ArrayList();

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clases/Clases.iml" filepath="$PROJECT_DIR$/Clases/Clases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyectos/ProjectGuarderia/GuarderiaRq1/GuarderiaRq1.iml" filepath="$PROJECT_DIR$/Proyectos/ProjectGuarderia/GuarderiaRq1/GuarderiaRq1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proyectos/ProjectGuarderia/GuarderiaRq2/GuarderiaRq2.iml" filepath="$PROJECT_DIR$/Proyectos/ProjectGuarderia/GuarderiaRq2/GuarderiaRq2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Programacion I - Segundo Semestre.iml" filepath="$PROJECT_DIR$/.idea/Programacion I - Segundo Semestre.iml" />
+    </modules>
+  </component>
+</project>
