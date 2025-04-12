@@ -20,10 +20,19 @@ public  class Main {
                     miEmpresa.crearEmpleado();
                 }
                 else if (opcionUno.equals("2")) {
+                    String opcionDos = JOptionPane.showInputDialog("1. Buscar empleado por cedula \n2. Buscar empleado por cargo");
+                    if (opcionDos.equals("1")) {
 
+                    }
+                    else if (opcionDos.equals("2")) {
+                        miEmpresa.buscarEmpleadoCargo();
+                    }
+                    else {
+                        JOptionPane.showMessageDialog(null,"Opcion no valida");
+                    }
                 }
                 else if (opcionUno.equals("3")) {
-
+                    miEmpresa.modificarEmpleado();
                 }
                 else if (opcionUno.equals("4")) {
 
